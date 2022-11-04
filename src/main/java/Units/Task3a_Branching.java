@@ -3,7 +3,7 @@ package Units;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class Branching {
+public class Task3a_Branching {
     static DecimalFormat format = new DecimalFormat("#0.00");
 
     public static void main(String[] args) {

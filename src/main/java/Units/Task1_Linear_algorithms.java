@@ -2,7 +2,7 @@ package Units;
 
 import java.util.Scanner;
 
-public class Linear_algorithms {
+public class Task1_Linear_algorithms {
     public static void main(String[] args) {
         calculate();
     }

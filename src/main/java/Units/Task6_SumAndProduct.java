@@ -2,7 +2,7 @@ package Units;
 
 import java.text.DecimalFormat;
 
-public class SumAndProduct {
+public class Task6_SumAndProduct {
     static DecimalFormat format = new DecimalFormat("#0.00");
 
     public static void main(String[] args) {

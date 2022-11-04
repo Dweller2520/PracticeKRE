@@ -2,7 +2,7 @@ package Units;
 
 import java.util.Scanner;
 
-public class Choice_ArrayList {
+public class Task4_1_Choice_ArrayList {
     public static String[] stud = {
             "1. Болдирев", "2. Бриль", "3. Ващук", "4. Горленко", "5. Григоренко", "6. Діденко", "7. Дима", "8. Донченко",
             "9. Дубина", "10. Дудник", "11. Жигалов", "12. Кравченко", "13. Куриленко", "14. Левенець", "15. Підгорний",

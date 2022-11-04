@@ -2,7 +2,7 @@ package Units;
 
 import java.util.Scanner;
 
-public class Choice_case_if {
+public class Task4_2_Choice_case_if {
     public static void main(String[] args) {
         getStudents();
     }

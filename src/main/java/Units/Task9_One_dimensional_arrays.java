@@ -2,7 +2,7 @@ package Units;
 
 import java.text.DecimalFormat;
 
-public class One_dimensional_arrays {
+public class Task9_One_dimensional_arrays {
     static DecimalFormat format = new DecimalFormat("#0.00");
 
     public static void main(String[] args) {

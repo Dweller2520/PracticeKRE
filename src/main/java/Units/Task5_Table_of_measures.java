@@ -3,7 +3,7 @@ package Units;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class Table_of_measures {
+public class Task5_Table_of_measures {
     static DecimalFormat format = new DecimalFormat("#0.00");
 
     public static void main(String[] args) {

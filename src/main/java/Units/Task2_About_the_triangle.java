@@ -2,7 +2,7 @@ package Units;
 
 import java.text.DecimalFormat;
 
-public class About_the_triangle {
+public class Task2_About_the_triangle {
     static DecimalFormat format = new DecimalFormat("#0.00");
 
     public static void main(String[] args) {

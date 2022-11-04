@@ -1,6 +1,6 @@
 package Units;
 
-public class FunctionX {
+public class Task0_FunctionX {
     public static void main(String[] args) {
         countX();
     }

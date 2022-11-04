@@ -2,7 +2,7 @@ package Units;
 
 import java.text.DecimalFormat;
 
-public class Desalting {
+public class Task3b_Desalting {
     static DecimalFormat format = new DecimalFormat("#0.00");
     public static void main(String[] args) {
         calculate();
