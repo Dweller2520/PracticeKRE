@@ -21,7 +21,7 @@ public class Task4_1_Choice_ArrayList {
         System.out.print("\n\nEnter number of student: ");
         double input = input();
         if (input > stud.length | input == 0) {
-            System.out.println("Input the correctly number\nEnter 0, for view students");
+            System.out.println("Input the correctly number\n");
         } else {
             System.out.println("\n" + stud[(int) input - 1]);
         }

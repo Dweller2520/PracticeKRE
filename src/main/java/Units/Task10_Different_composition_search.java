@@ -22,7 +22,7 @@ public class Task10_Different_composition_search {
     public static void outElements() {
         for (int i = 1; i < n; i++) {
             if (elements[i] > 0)
-                System.out.println(format.format(elements[i]));
+                System.out.println("Елемент масиву " + i + " = " + format.format(elements[i]));
         }
     }
 }
