@@ -6,7 +6,23 @@
 
     <groupId>Units</groupId>
     <artifactId>Practice2</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>Task1</module>
+        <module>Task2</module>
+        <module>Task3a</module>
+        <module>Task3b</module>
+        <module>Task4_1</module>
+        <module>Task4_2</module>
+        <module>Task5</module>
+        <module>Task6</module>
+        <module>Task7a</module>
+        <module>Task8</module>
+        <module>Task9</module>
+        <module>Task10</module>
+        <module>Task0</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
