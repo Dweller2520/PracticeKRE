@@ -2,19 +2,22 @@ import java.text.DecimalFormat;
 
 public class Task8_Tabulation {
     static DecimalFormat format = new DecimalFormat("#0.00");
+    static double x, y, i, sumY;
+    static double f9 = Math.cos(Math.pow(x, 2) + 1) - Math.abs(Math.pow(Math.sin(x), 2) - 5.76);
 
     public static void main(String[] args) {
-        double f = 9.2 * Math.pow(Math.cos(1), 2) - Math.abs(Math.sin(1) / 1.1);
-        double y = 0;
-        double i = 0.1;
+        calc();
+        System.out.println("\n" + "sum Y min-max = " + format.format(sumY));
+    }
 
+    public static void calc() {
+        y = 0;
+        i = 0.1;
         for (; i <= 1; i += 0.1) {
-            y += f;
-
+            y += f9;
             System.out.println("x = " + format.format(i) + " " +
                     "y = " + format.format(y));
         }
-        double sumY = f + y;
-        System.out.println("\n" + "sum Y min-max = " + format.format(sumY));
+        sumY = f9 + y;
     }
 }

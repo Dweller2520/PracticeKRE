@@ -3,32 +3,35 @@ import java.util.Scanner;
 
 public class Task3a_Branching {
     static DecimalFormat format = new DecimalFormat("#0.00");
+    static double x, y, a, b, h;
+    static double f3 = Math.abs(Math.cos(x) / 2.7) + 9.1 * Math.sin(1.2 * x + 1);
+    static double f4 = Math.abs(Math.sin(x) / 3.12 + Math.pow(Math.cos(x), 2)) - 8.3 * Math.sin(3 * x);
 
     public static void main(String[] args) {
         count();
     }
 
     static void count() {
-        double f = 9.2 * Math.pow(Math.cos(1), 2) - Math.abs(Math.sin(1) / 1.1);
-        System.out.println("f = " + f);
+        System.out.println("f3 = " + format.format(f3));
+        System.out.println("f4 = " + format.format(f4));
 
         System.out.println("fn(φ), При |Y| < 10");
         System.out.println("fn(ω), При |Y| >= 10");
         System.out.print("Enter char Y: ");
-        double y = input();
+        y = input();
         if (Math.abs(y) < 10) {
             System.out.print("|X| < 10, Enter char a: ");
-            double a = input();
+            a = input();
             System.out.print("|X| < 10, Enter char b: ");
-            double b = input();
-            double h = Math.tan(y + a) - Math.log(Math.abs(b + 7));
+            b = input();
+            h = (Math.tan(y + a) - Math.log(Math.abs(b + 7))) * f3;
             System.out.println("φ = " + format.format(h));
         } else if (Math.abs(y) >= 10) {
             System.out.print("|X| >= 10, enter char c: ");
-            double c = input();
+            a = input();
             System.out.print("|X| >= 10, enter char d: ");
-            double d = input();
-            double b = Math.pow(c, 5) * Math.sqrt(Math.pow(y, 2) + d * Math.pow(Math.E, 1.3));
+            b = input();
+            h = (Math.pow(a, 5) * Math.sqrt(Math.pow(y, 2) + b * Math.pow(Math.E, 1.3))) * f4;
             System.out.println("ω = " + format.format(b));
         }
     }
