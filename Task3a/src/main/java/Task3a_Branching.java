@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Task3a_Branching {
     static DecimalFormat format = new DecimalFormat("#0.00");
     static double x, y, a, b, h;
-    static double f3 = Math.abs(Math.cos(x) / 2.7) + 9.1 * Math.sin(1.2 * x + 1);
+    static double f3 = Math.abs(Math.cos(x) / 2.7) + 9.1 * Math.sin(1.2 * x + 1.0);
     static double f4 = Math.abs(Math.sin(x) / 3.12 + Math.pow(Math.cos(x), 2)) - 8.3 * Math.sin(3 * x);
 
     public static void main(String[] args) {
